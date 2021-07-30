@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    <title>
+      Chat App
+    </title>
+    <link rel="stylesheet" href="style.css"></link>
+  </head>
+  <body>
+    <section>
+      <h1>Chat application</h1>
+      <main>
+        <div id="user">Arbaz </div>
+        <ul class="messageCon">
+          <li class="left">
+            <p>
+              Hi
+              <span>Shahbaz . Time</span>
+            </p>
+          </li>
+          <li class="right">
+            <p>
+              Hello
+              <span>Arbaz . Time</span>
+            </p>
+          </li>
+          <li class="feedback">
+            <p>Arbaz is typing</p>
+          </li>
+        </ul>
+        <form id="form">
+          <input type="text" placeholder="Enter message" />
+          <span>send ></span>
+        </form>
+      </main>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
